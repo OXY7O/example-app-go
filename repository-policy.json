@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.0",
+  "profileKey": "go-service",
+  "governanceBaseline": "platform-governance@v1.2.0",
+  "workflowRelease": "platform-workflow@v0.4.0",
+  "workflowSha": "010dee6edcdf21f813e842ef3f193f4a2c83593e",
+  "lifecycle": "pilot",
+  "compatibility": "not-validated",
+  "artifactType": "binary",
+  "target": "linux/amd64",
+  "deploymentEnabled": false,
+  "secretsAllowed": false
+}
