@@ -29,6 +29,7 @@ example-app-go
 - [Platform Governance](https://github.com/OXY7O/platform-governance)
 - [Go Service profile](https://github.com/OXY7O/platform-workflow/blob/v0.4.0/docs/profiles/go-service/README.md)
 - [Traceability](docs/TRACEABILITY.md)
+- [Actual pilot evidence](docs/results/2026-08-30-go-service-pilot.json)
 
 ## Quick start
 

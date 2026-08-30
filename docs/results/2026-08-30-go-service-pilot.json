@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0",
+  "actual": true,
+  "observedAt": "2026-08-30T02:11:21Z",
+  "profileKey": "go-service",
+  "run": {
+    "id": 33287298771,
+    "url": "https://github.com/OXY7O/example-app-go/actions/runs/33287298771",
+    "headSha": "f170b7709832fd595698e5796566257acfddaa22",
+    "sourceSha": "1d0d6a080082b01f8d265c194cda13c684ea5f93",
+    "conclusion": "success"
+  },
+  "workflowReleaseSha": "010dee6edcdf21f813e842ef3f193f4a2c83593e",
+  "workflowImplementationSha": "c9314ac3fd75042b5e8d569a38d851419c83f258",
+  "contractDigest": "sha256:c4070188b32b244f4950d54361432dc99603af0ae8b5db0a34e3fba0eacf97c",
+  "moduleDigest": "sha256:dfb5fb44cc6201ad1006e0a791f848a5f461611665cf9c249999b1b156700c91",
+  "runnerClass": "linux-x64",
+  "runnerImage": "ubuntu-24.04",
+  "checks": [
+    {"id": "prepare-compatibility", "conclusion": "success"},
+    {"id": "go-family-1.26.7", "conclusion": "success"},
+    {"id": "go-compatibility-1.27.0", "conclusion": "success"},
+    {"id": "go-canonical-package", "conclusion": "success"}
+  ],
+  "artifact": {
+    "githubArtifactId": 9724850281,
+    "artifactId": "ART-go-service-1d0d6a080082-c4070188b32b",
+    "artifactName": "example-api_0.1.0_linux_amd64.tar.gz",
+    "type": "binary",
+    "target": "linux/amd64",
+    "goVersion": "1.26.7",
+    "packageDigest": "sha256:401ba5054355f09fb785fe939164e7e61dd2b2a77f86dd3056f0b5a27038af49",
+    "manifestDigest": "sha256:85e581f2b89e810f06aae383807b4b110132bb41d44757146e02544d80a156e1",
+    "downloadedManifestFileDigest": "sha256:15e518de2d6c0b7db0a6e744323fa38eae2c85d3cac079c78f2b3c320f798e01",
+    "githubArchiveDigest": "sha256:7262b0f3babf2f36146ea8d9759c09da9d6ad7504d9529e7edea72c32fa504ef",
+    "binaryDigest": "sha256:bfa53c071d322ea7e37126bdf7498c33c67d70f528f210f372c10f7b3bcf0ce9",
+    "files": [
+      {"path": "example-api", "mode": "0755", "size": 8608958},
+      {"path": "manifest.json", "mode": "0644", "size": 763}
+    ],
+    "retentionDays": 14,
+    "expiresAt": "2026-09-13T02:11:16Z"
+  },
+  "compatibility": {
+    "goVersion": "1.27.0",
+    "conclusion": "success",
+    "artifactCount": 0
+  },
+  "deploymentAuthorized": false,
+  "evidenceReference": "EVD-GO-PILOT-20260830-001"
+}

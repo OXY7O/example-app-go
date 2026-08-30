@@ -7,7 +7,7 @@ const required = [
   "cmd/api/main.go",
   "compatibility/go-service.json",
   "docs/TRACEABILITY.md",
-  "docs/evidence/example-safe-evidence.json",
+  "docs/results/2026-08-30-go-service-pilot.json",
   "go.mod",
   "go.sum",
   "internal/httpapi/handler.go",

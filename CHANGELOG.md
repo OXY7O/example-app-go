@@ -15,4 +15,5 @@
 
 - status repository adalah pilot dan compatibility masih `not-validated`;
 - tidak ada secret, OIDC, environment, release production, atau deployment;
-- actual evidence akan ditambahkan setelah run GitHub berhasil dan direview.
+- actual Safe evidence dari run pilot `33287298771` sudah dicatat; approval
+  deployment tetap tidak diberikan.

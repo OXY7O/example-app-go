@@ -54,10 +54,13 @@ test("README supports a developer onboarding journey", () => {
 });
 
 test("safe evidence example contains no sensitive field", () => {
-  const evidence = JSON.parse(read("docs/evidence/example-safe-evidence.json"));
+  const evidence = JSON.parse(read("docs/results/2026-08-30-go-service-pilot.json"));
   assert.equal(evidence.schemaVersion, "1.0");
   assert.equal(evidence.profileKey, "go-service");
-  assert.equal(evidence.actual, false);
+  assert.equal(evidence.actual, true);
+  assert.equal(evidence.run.id, 33287298771);
+  assert.equal(evidence.artifact.githubArtifactId, 9724850281);
+  assert.equal(evidence.compatibility.artifactCount, 0);
   assert.equal(evidence.deploymentAuthorized, false);
   assert.doesNotMatch(JSON.stringify(evidence), /secret|token|password|private.?key/i);
 });
