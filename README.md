@@ -13,6 +13,19 @@ binary artifact, dan compatibility lane tanpa artifact.
 Repository ini adalah materi pembelajaran dan pilot, bukan production starter
 atau klaim operational compliance.
 
+## Peran dalam provisioning
+
+Repository ini adalah permanent compatibility dan certification fixture untuk
+profile `go-service`. Ia menguji workflow SHA, Go canonical/compatibility lane,
+binary artifact boundary, dan Safe evidence. Source-nya tidak disalin ke
+repository developer dan bukan `template-app-go-service`.
+
+Platform Provisioning hanya dapat memakai hasilnya untuk exact approved bundle
+yang masih valid. Kombinasi baru atau perubahan behavior membutuhkan sandbox
+validation. Deployment dan security end-to-end belum tersedia, sehingga pilot ini
+belum menerbitkan certification reusable untuk deployment atau security profile
+penuh.
+
 ## Hubungan repository
 
 ```text
@@ -87,10 +100,11 @@ Status `ci-qualified` berarti artifact lolos CI. Status tersebut bukan izin
 promotion, release production, atau deployment. Compatibility lane tidak
 mengunggah artifact.
 
-## Cara mengadopsi
+## Cara mengadopsi pola melalui provisioning
 
 1. Pastikan aplikasi sesuai profile Go Service/API.
-2. Salin pola thin caller dari `.github/workflows/ci.yml`.
+2. Pelajari pola thin caller pada `.github/workflows/ci.yml`; governed provisioning
+   akan memasangnya dari template ketika layanan tersedia.
 3. Ganti module path, binary name, main package, version, dan threshold dalam
    batas kontrak.
 4. Pin workflow ke full commit SHA yang sudah disetujui.
