@@ -15,6 +15,8 @@ atau klaim operational compliance.
 
 ## Peran dalam provisioning
 
+Kontrak provisioning mengikuti [Platform Governance v1.5.0](https://github.com/OXY7O/platform-governance/releases/tag/v1.5.0).
+
 Repository ini adalah permanent compatibility dan certification fixture untuk
 profile `go-service`. Ia menguji workflow SHA, Go canonical/compatibility lane,
 binary artifact boundary, dan Safe evidence. Source-nya tidak disalin ke
