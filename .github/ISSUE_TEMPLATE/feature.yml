@@ -1,0 +1,23 @@
+name: Usulan penyempurnaan example
+description: Ajukan perubahan profile, compatibility, atau bukti implementasi
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Kebutuhan dan pengguna terdampak
+    validations:
+      required: true
+  - type: textarea
+    id: contract
+    attributes:
+      label: Profile, workflow, dan governance reference
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Kriteria penerimaan dan evidence
+    validations:
+      required: true
