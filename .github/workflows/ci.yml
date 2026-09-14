@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   ci:
-    uses: OXY7O/platform-workflow/.github/workflows/ci-profile-go-service.yml@010dee6edcdf21f813e842ef3f193f4a2c83593e
+    uses: OXY7O/platform-workflow/.github/workflows/ci-profile-go-service.yml@891bff48166ca7fb3de13a4d8d15acb7f4f25d08
     with:
       contract-json: >-
         {"schemaVersion":"1.0","governanceVersion":"v1.2.0","catalogueVersion":"1.2.0","profileKey":"go-service","goVersion":"1.26.7","modulePath":"github.com/OXY7O/example-app-go","binaryName":"example-api","applicationVersion":"0.1.0","mainPackage":"./cmd/api","artifactType":"binary","targetOs":"linux","targetArch":"amd64","workingDirectory":".","coverageThreshold":80,"retentionDays":14,"evidenceMode":"safe-metadata"}
